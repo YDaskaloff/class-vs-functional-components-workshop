@@ -1,0 +1,6 @@
+module Pods_workshop {
+  umbrella header "Pods-workshop-umbrella.h"
+
+  export *
+  module * { export * }
+}
