@@ -11,7 +11,7 @@ export const HomeStack = () => {
             options={{
                 headerShown: false,
             }}
-            name={'Home'}
+            name={'HomeScreen'}
             component={Home}
         />
     </Stack.Navigator>
@@ -23,7 +23,7 @@ export const SettingsStack = () => {
             options={{
                 headerShown: false,
             }}
-            name={'Settings'}
+            name={'SettingsScreen'}
             component={Settings}
         />
     </Stack.Navigator>

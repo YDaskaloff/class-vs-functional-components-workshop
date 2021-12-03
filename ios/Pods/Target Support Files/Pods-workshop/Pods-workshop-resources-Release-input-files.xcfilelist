@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-workshop/Pods-workshop-resources.sh
+${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf
 ${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle
