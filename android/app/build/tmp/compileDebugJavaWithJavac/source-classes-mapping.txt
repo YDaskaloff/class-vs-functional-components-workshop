@@ -1,0 +1,9 @@
+com/workshop/BuildConfig.java
+ com.workshop.BuildConfig
+com/workshop/MainApplication.java
+ com.workshop.MainApplication
+ com.workshop.MainApplication$1
+com/workshop/MainActivity.java
+ com.workshop.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

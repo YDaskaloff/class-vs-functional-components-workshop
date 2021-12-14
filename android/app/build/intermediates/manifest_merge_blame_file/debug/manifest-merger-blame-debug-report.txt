@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.workshop"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->[com.facebook.flipper:flipper:0.99.0] /Users/yavor.daskalov/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+12-->[com.facebook.flipper:flipper:0.99.0] /Users/yavor.daskalov/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+13
+14    <application
+14-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:6:5-25:19
+15        android:name="com.workshop.MainApplication"
+15-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:7:7-38
+16        android:allowBackup="false"
+16-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:11:7-34
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] /Users/yavor.daskalov/.gradle/caches/transforms-3/5646db46e2cfb43e7b3d42f3054c498c/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:9:7-41
+20        android:label="@string/app_name"
+20-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:8:7-39
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:10:7-52
+22        android:theme="@style/AppTheme"
+22-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:13:7-38
+23        android:usesCleartextTraffic="true" >
+23-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:12:7-42
+24        <activity
+24-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:14:7-24:18
+25            android:name="com.workshop.MainActivity"
+25-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:15:9-37
+26            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+26-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:17:9-86
+27            android:label="@string/app_name"
+27-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:16:9-41
+28            android:launchMode="singleTask"
+28-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:18:9-40
+29            android:windowSoftInputMode="adjustResize" >
+29-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:19:9-51
+30            <intent-filter>
+30-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:20:9-23:25
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:21:13-65
+31-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:21:21-62
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:22:13-73
+33-->/Users/yavor.daskalov/Desktop/fun_code/class-vs-functional-components-workshop/android/app/src/main/AndroidManifest.xml:22:23-70
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

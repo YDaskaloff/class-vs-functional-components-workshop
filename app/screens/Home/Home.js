@@ -16,7 +16,14 @@ const Home = (props) => {
     const fetchFact = async () => {
         try {
             const response = await fetch(
-                'https://uselessfacts.jsph.pl/random.json?language=en'
+                'https://uselessfacts.jsph.pl/random.json?language=en',
+                {
+                    method: 'GET',
+                    headers: {
+                        "Content-Type": "multipart/form-data",
+                        "Accept": "application/json"
+                    }
+                }
             );
             const json = await response.json();
 
